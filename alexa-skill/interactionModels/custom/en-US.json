@@ -1,0 +1,132 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "accident guide",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "ClaimIntent",
+          "slots": [],
+          "samples": [
+            "notify Nationwide",
+            "claim",
+            "file a claim",
+            "How can I file a claim"
+          ]
+        },
+        {
+          "name": "InjuredIntent",
+          "slots": [],
+          "samples": [
+            "I\u0027m injured",
+            "not okay",
+            "I think I\u0027m hurt",
+            "I think I\u0027m injured",
+            "injury",
+            "injured",
+            "Oh god there is blood is everywhere",
+            "someone is injured",
+            "hurt",
+            "I\u0027m hurt"
+          ]
+        },
+        {
+          "name": "NoobIntent",
+          "slots": [],
+          "samples": [
+            "what do i do",
+            "what should I do",
+            "I don\u0027t know",
+            "I don\u0027t know what to do"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "OtherPersonIntent",
+          "slots": [],
+          "samples": [
+            "their information",
+            "exchange information",
+            "other driver",
+            "What information do I need to get from the other driver"
+          ]
+        },
+        {
+          "name": "TowIntent",
+          "slots": [],
+          "samples": [
+            "flat tire",
+            "car doesn\u0027t work",
+            "car is not driveable ",
+            "tow service",
+            "tow",
+            "I need a tow",
+            "Towing",
+            "Roadside Assistance"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AssociateIntent",
+          "slots": [],
+          "samples": [
+            "talk to an associate",
+            "real person",
+            "real human",
+            "operator ",
+            "no robots",
+            "call rep",
+            "associate",
+            "Talk to a person"
+          ]
+        },
+        {
+          "name": "AddressIntent",
+          "slots": [],
+          "samples": [
+            "can i get my accident location",
+            "email accident location",
+            "email me my accident location"
+          ]
+        },
+        {
+          "name": "VehicleIntent",
+          "slots": [],
+          "samples": [
+            "damaged",
+            "car wrecked",
+            "my car is damaged"
+          ]
+        }
+      ],
+      "types": [],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    }
+  },
+  "version": "25"
+}
